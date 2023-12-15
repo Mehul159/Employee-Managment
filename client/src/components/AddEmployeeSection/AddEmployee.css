@@ -1,0 +1,134 @@
+.add-employee-section {
+  margin: 100px 250px;
+  border-radius: 15px 15px 0px 0px;
+  border: 2px solid #379dfb;
+
+  @media only screen and (max-width: 1150px) {
+    margin: 70px 150px;
+  }
+  @media only screen and (max-width: 770px) {
+    margin: 40px 10%;
+  }
+}
+
+.add-employee-header {
+  color: white;
+  background-color: #379dfb;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 50px;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid #379dfb;
+}
+
+.add-employee-header p {
+  align-self: center;
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 10%;
+
+  @media only screen and (max-width: 950px) {
+    padding: 40px 5%;
+  }
+}
+
+.form .single-form-entry {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+
+  @media only screen and (max-width: 770px) {
+    flex-direction: column;
+  }
+}
+
+.form .single-form-entry > label {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 25%;
+  align-self: center;
+
+  @media only screen and (max-width: 950px) {
+    font-size: 16px;
+  }
+  @media only screen and (max-width: 770px) {
+    width: 100%;
+  }
+}
+
+.required:after {
+  content: " *";
+  color: red;
+}
+
+.form .single-form-entry > input {
+  margin-left: auto;
+  width: 72%;
+  border: 1px solid #379dfb;
+  border-radius: 5px;
+  padding: 5px 10px;
+  align-self: center;
+
+  @media only screen and (max-width: 770px) {
+    width: 100%;
+  }
+}
+
+.form-buttons {
+  margin-left: auto;
+  margin-top: 20px;
+
+  @media only screen and (max-width: 770px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.form-buttons .clear-all-btn {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  background-color: white;
+  border: none;
+  color: black;
+  opacity: 40%;
+
+  @media only screen and (max-width: 770px) {
+    font-size: 14px;
+  }
+}
+
+.form-buttons .add-btn {
+  margin-left: 20px;
+  background-color: #379dfb;
+  border-radius: 100px;
+  padding: 5px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: white;
+  border: none;
+
+  @media only screen and (max-width: 770px) {
+    font-size: 16px;
+  }
+}
